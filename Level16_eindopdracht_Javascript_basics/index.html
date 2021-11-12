@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Practice Event Handlers</title>
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="home-background" id="test1">
+
+    <nav class="nav-main">
+        <div class="btn-toggle-nav" onclick="toggleNav()"></div>
+    </nav>
+
+    <aside class="nav-sidebar">
+        <ul>
+            <li id="homeBackground" onclick="document.body.style.backgroundColor = 'lightgray'; toggleNav()">Home</li>
+            <li id="redBackground" onclick="document.body.style.backgroundColor = 'red';toggleNav()">Red</li>
+            <li id="orangeBackground" onclick="document.body.style.backgroundColor = 'orange';toggleNav()">Orange</li>
+            <li id="purpleBackground" onclick="document.body.style.backgroundColor = 'purple';toggleNav()">Purple</li>
+            <li id="greenBackground" onclick="document.body.style.backgroundColor = 'green';toggleNav()">Green</li>
+        </ul>
+    </aside>
+</body>
+
+</html>
